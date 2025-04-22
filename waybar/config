@@ -1,0 +1,36 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin": "6",
+  "modules-left": ["custom/menu"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio", "battery"],
+
+  "custom/menu": {
+    "format": "🍔 Menu",
+    "on-click": "rofi -show drun",
+    "tooltip": false
+  },
+
+  "clock": {
+    "format": "{:%A, %B %d | %I:%M %p}",
+    "tooltip": false
+  },
+
+  "network": {
+    "format-wifi": " {signalStrength}%",
+    "format-ethernet": " {ifname}",
+    "tooltip": true
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "tooltip": false
+  },
+
+  "battery": {
+    "format": "{capacity}% ",
+    "tooltip": false
+  }
+}
+

@@ -1,0 +1,20 @@
+* {
+    background-color: #000000;
+    color: #dcdcdc;
+    border-radius: 8px;
+}
+
+button,
+.entry,
+combobox,
+treeview {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #3c3c3c;
+}
+
