@@ -9,7 +9,7 @@
   border:             none;      /* Thin border */
   padding:            10px;     /* Padding inside the window */
   spacing:            5px;      /* Spacing between elements */
-  font:               "Fira Sans 12";  /* Font for text */
+  font:               "Noto Sans 12";  /* Font for text */
 }
 
 window {
