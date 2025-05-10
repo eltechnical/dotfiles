@@ -1,0 +1,67 @@
+* {
+  background:         #000000;  /* Dark background */
+  foreground:         #E0E0E0;  /* Light text */
+  selected:           #333333;  /* Selected item background */
+  active:             #C4A7E7;  /* Active item color */
+  urgent:             #FF5C8D;  /* Urgent item color */
+  border-color:       #333333;  /* Border color */
+  border-radius:      10px;     /* Rounded corners */
+  border:             none;      /* Thin border */
+  padding:            10px;     /* Padding inside the window */
+  spacing:            5px;      /* Spacing between elements */
+  font:               "Fira Sans 12";  /* Font for text */
+}
+
+window {
+  background-color:   @background;
+  border:             @border;
+  border-color:       @border-color;
+}
+
+mainbox {
+  children: [ inputbar, listview ];
+  padding: 12px;
+  spacing: 10px;
+}
+
+inputbar {
+  background-color:   #000000; /* Dark inputbar */
+  padding:            8px;
+  border-radius:      8px;
+  border:             none;
+}
+
+listview {
+  lines:              8;        /* Max lines in the list */
+  columns:            1;        /* Single column layout */
+  spacing:            6px;      /* Spacing between items */
+}
+
+element {
+  background-color:   @background;
+  border-radius:      8px;      /* Rounded corners */
+  padding:            6px 0;    /* Reduced padding to make it compact */
+  icon-padding:       0;        /* No extra padding around the icon */
+  border:             none;     /* No border around elements */
+}
+
+element selected {
+  background-color:   @selected;   /* Highlight for selected items */
+  color:              @foreground;
+}
+
+element active {
+  background-color:   @active;     /* Active item color */
+  color:              @foreground;
+}
+
+element urgent {
+  background-color:   @urgent;     /* Urgent item highlight */
+  color:              @foreground;
+}
+
+listview, inputbar {
+  border-radius:      10px;      /* Smooth rounded corners */
+}
+
+
