@@ -25,3 +25,4 @@ Like bro, "zshrc" → ".zshrc" or it’s not gonna hit right.
 
 That’s it. You’re officially a ricer now.  
 Now go flex your setup on Reddit or something 🧠🔥
+
