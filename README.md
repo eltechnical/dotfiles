@@ -21,6 +21,8 @@ If you are curious, the requirements are
 11. Neofetch
 12. Pfetch
 13. Nitch
+14. YAY
+## NOTE: It will install the dependancies using the script
 # Installation
 ## NOTE: You are required to clone this on the Home (~) directory, nowhere else.
 Run ``git clone https://github.com/eltechnical/dotfiles``.
