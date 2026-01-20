@@ -1,4 +1,4 @@
-# NOTE: The dotfiles only support Arch Linux! You will have issues on any other distro (e.g. Gentoo).
+**NOTE:** The dotfiles only support Arch Linux! You will have issues on any other distro (e.g. Gentoo).
 Welcome to my Hyprland dotfiles! This readme will serve as your installation guide for this journey.
 ____________________________________________________________________________________________________
 # 1. Introduction
