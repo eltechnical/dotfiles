@@ -1,7 +1,8 @@
 # Welcome to my Hyprland dotfiles!
 ____________________________________________________________________________________________________
-**NOTE: The dotfiles only support Arch Linux! You will have issues on any other distro (e.g. Gentoo).
-Welcome to my Hyprland dotfiles! This readme will serve as your installation guide for this journey**
+**NOTE:** The dotfiles only support **Arch Linux**! You will have issues on any other distro (e.g. Gentoo).
+____________________________________________________________________________________________________
+Welcome to my Hyprland dotfiles! This readme will serve as your installation guide for this journey.
 ____________________________________________________________________________________________________
 # 1. Introduction
 Hyprland is a tiling window manager for Linux, made by Vaxry. Hyprland features a minimalist environment using Wayland. Hyprland can also be extra customizable to your needs, and support for popular addons for Wayland like Waybar, Rofi-Wayland, etc. Due to it's customizability, I customized it to what I wanted Hyprland to look and feel like.
