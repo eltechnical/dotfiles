@@ -15,7 +15,7 @@ if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
   # Updating of Arch Linux and installation of required components.
   sudo pacman -Syu --noconfirm
   sleep 1
-  sudo pacman -S --needed git base-devel
+  sudo pacman -S --needed --noconfirm git base-devel
   sleep 1
   git clone https://aur.archlinux.org/yay.git
   sleep 1
@@ -25,7 +25,7 @@ if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
   sleep 1
   cd ..
   sleep 1
-  yay -S hyprland waybar rofi swaync neovim zsh neofetch nitch swww pfetch xdg-desktop-portal xdg-desktop-portal-hyprland pipewire pipewire-pulse pipewire-jack pipewire-alsa
+  yay -S --noconfirm hyprland waybar rofi swaync neovim zsh neofetch nitch swww pfetch xdg-desktop-portal xdg-desktop-portal-hyprland pipewire pipewire-pulse pipewire-jack pipewire-alsa
   sleep 1
 
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
