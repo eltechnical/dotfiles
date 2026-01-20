@@ -19,8 +19,7 @@ If you are curious, the requirements are
 12. Pfetch
 13. Nitch
 # Installation
-NOTE: You are required to clone this on the Home (~) directory, nowhere else.
-----------------------------------------------------------------------------------------------------
+## NOTE: You are required to clone this on the Home (~) directory, nowhere else.
 Run ``git clone https://github.com/eltechnical/dotfiles``.
 After running ``git clone https://github.com/eltechnical/dotfiles``, run ``cd ~/dotfiles`` and then run the script by doing ``bash install.sh``.
 Now congratulations! You have installed my dotfiles!
