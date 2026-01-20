@@ -17,7 +17,7 @@ If you are curious, the requirements are
 10. Neovim
 # Installation
 NOTE: You are required to clone this on the Home (~) directory, nowhere else.
-____________________________________________________________________________________________________
+----------------------------------------------------------------------------------------------------
 Run ``git clone https://github.com/eltechnical/dotfiles``.
 After running ``git clone https://github.com/eltechnical/dotfiles``, run ``cd ~/dotfiles`` and then run the script by doing ``bash install.sh``.
 Now congratulations! You have installed my dotfiles!
