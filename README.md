@@ -15,6 +15,9 @@ If you are curious, the requirements are
 8. SWWW
 9. ZSH
 10. Neovim
+11. Neofetch
+12. Pfetch
+13. Nitch
 # Installation
 NOTE: You are required to clone this on the Home (~) directory, nowhere else.
 ----------------------------------------------------------------------------------------------------
