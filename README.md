@@ -7,7 +7,7 @@ Hyprland is a tiling window manager for Linux, made by Vaxry. Hyprland features 
 If you are curious, the requirements are
 1. Hyprland (obviously)
 2. XDG-Desktop-Portal
-3  XDG-Desktop-Portal-Hyprland
+3. XDG-Desktop-Portal-Hyprland
 4. Pipewire
 5. Kitty
 6. Rofi-Wayland
