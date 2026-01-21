@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Welcome text
-echo "Welcome to the installer for eltechnical/dotfiles (https://github.com/eltechnical/dotfiles"
+echo "Welcome to the installer for eltechnical/dotfiles (https://github.com/eltechnical/dotfiles)"
 
 # Delay for 1 second
 sleep 1
