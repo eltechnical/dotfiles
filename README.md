@@ -22,6 +22,7 @@ If you are curious, the requirements are
 12. Pfetch
 13. Nitch
 14. YAY
+15. NWG-look
 ## NOTE: It will install the dependancies using the script
 # Installation
 ## NOTE: You are required to clone this on the Home (~) directory, nowhere else.
