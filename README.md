@@ -9,7 +9,7 @@ ________________________________________________________________________________
 # 1. Introduction
 Hyprland is a tiling window manager for Linux, made by Vaxry. Hyprland features a minimalist environment using Wayland. Hyprland can also be extra customizable to your needs, and support for popular addons for Wayland like Waybar, Rofi-Wayland, etc. Due to it's customizability, I customized it to what I wanted Hyprland to look and feel like.
 # 2. Requirements for the dotfiles.
-If you are curious, the requirements are
+If you are curious, the requirements are:
 1. Hyprland (obviously)
 2. XDG-Desktop-Portal
 3. XDG-Desktop-Portal-Hyprland
