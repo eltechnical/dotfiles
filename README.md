@@ -1,4 +1,5 @@
 # Welcome to my Hyprland dotfiles!
+Here is a preview of it:
 ![A screenshot of my rice](assets/screenshot.png)
 ____________________________________________________________________________________________________
 **NOTE:** The dotfiles only support **Arch Linux**! You will have issues on any other distro (e.g. Gentoo).
