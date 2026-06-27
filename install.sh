@@ -27,7 +27,11 @@ if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
     rm -rf yay
     sleep 1
   fi
-  yes | yay -S --noconfirm hyprland waybar rofi swaync neovim zsh neofetch nitch swww pfetch xdg-desktop-portal xdg-desktop-portal-hyprland pipewire pipewire-pulse pipewire-jack pipewire-alsa nwg-look
+  # remove jack2 first since pipewire-jack replaces it and they conflict
+  if pacman -Qi jack2 &>/dev/null; then
+    sudo pacman -Rdd --noconfirm jack2
+  fi
+  yay -S --noconfirm hyprland waybar rofi swaync neovim zsh neofetch nitch swww pfetch xdg-desktop-portal xdg-desktop-portal-hyprland pipewire pipewire-pulse pipewire-jack pipewire-alsa nwg-look
   sleep 1
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
   sleep 1
